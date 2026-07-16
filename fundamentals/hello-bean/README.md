@@ -58,8 +58,7 @@ The ApplicationContext stores the bean.
 We can retrieve it:
 
 ```java
-HelloService service =
-    context.getBean(HelloService.class);
+HelloService service = context.getBean(HelloService.class);
 ```
 
 ---
