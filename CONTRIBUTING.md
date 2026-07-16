@@ -86,20 +86,84 @@ The README should include:
 
 ---
 
-## Commit Messages
 
-Please use descriptive commit messages.
+## Branch Naming Convention
+
+To keep the repository organized, please use the following naming conventions when creating branches.
+
+Branches should follow this format:
+
+Use lowercase letters and separate words with hyphens (`-`).
+
+---
+
+### Feature branches
+
+For adding new examples, features, or learning material:
 
 Examples:
+```
+feature/hello-bean
+feature/dependency-injection
 
 ```
-Add @Import example
 
-Improve Bean Lifecycle documentation
+---
 
-Fix typo in Constructor Injection example
+
+
+### Documentation branches
+
+For documentation changes:
+
+Examples:
+```
+docs/improve-readme
+docs/add-contributing-guide
+
 ```
 
+---
+
+---
+
+### Bug fix branches
+
+For fixing issues:
+
+Examples:
+```
+fix/maven-buid
+fix/broken-example-test
+
+```
+---
+
+---
+
+## Good Branch Name Examples
+
+```
+feature/add-bean-lifecycle-example
+docs/update/learning-path
+refactor/maven-parent-structure
+fix/update-spring-version
+```
+
+---
+
+## Commit Message Convention
+
+Write commit messages that clearly describe what changed.
+
+Use:
+
+```
+(feature): Added Hello Bean Example
+(feature): Added dependency injection example
+(fix): Fixed Maven parent configuration
+etc.
+```
 ---
 
 ## Reporting Issues
