@@ -16,10 +16,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ## Hello Spring
 
-- 🚧 Hello Bean
+- [x] Hello Bean
 - 🚧 Dependency Injection
 - 🚧 Constructor Injection
-- [ ] Creating Your First Bean
 - [ ] Setter Injection
 - [ ] Field Injection
 - [ ] Bean Scopes

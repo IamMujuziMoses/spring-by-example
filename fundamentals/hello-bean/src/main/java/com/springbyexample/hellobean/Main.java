@@ -5,7 +5,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 /**
  * @author Mujuzi Moses
- *
  */
 
 public class Main {

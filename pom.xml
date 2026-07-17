@@ -17,6 +17,7 @@
 
     <modules>
         <module>fundamentals/hello-bean</module>
+        <module>fundamentals/dependency-injection</module>
     </modules>
 
     <properties>
