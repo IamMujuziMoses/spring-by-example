@@ -93,5 +93,5 @@ Continue with:
 
 - Dependency Injection
 - Constructor Injection
-- Bean Scopes
-- Bean Lifecycle
+- Setter Injection
+- Field Injection

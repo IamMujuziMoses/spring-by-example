@@ -2,7 +2,6 @@ package com.springbyexample.hellobean;
 
 /**
  * @author Mujuzi Moses
- *
  */
 
 public class HelloService {
