@@ -11,7 +11,7 @@ fundamentals/hello-bean
 ## Changes
 
 - [ ] Added example code
-- [ ] Added documentation
+- [ ] Added README documentation
 - [ ] Added tests
 
 ## Verification
