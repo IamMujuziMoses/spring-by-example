@@ -46,6 +46,8 @@ Avoid combining multiple unrelated concepts into one example.
 
 ## Before You Start
 
+Check the [ROADMAP.md](ROADMAP.md) to check the status and avoid working on the already finished steps.
+
 Please check existing issues and pull requests before creating a new example.
 
 If you plan to add a large feature or multiple examples, consider opening an issue first to discuss the idea.
@@ -187,3 +189,12 @@ Before submitting a pull request:
 - Follow the repository structure.
 
 Thank you for helping make Spring by Example better!
+
+---
+
+## After
+
+Update the [ROADMAP.md](ROADMAP.md) to update the status and to prevent other contributors from working on the already 
+finished steps.
+
+---

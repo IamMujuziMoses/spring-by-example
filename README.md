@@ -72,17 +72,20 @@ If you're new to Spring, follow this order:
 
 1. Hello Bean
 2. Dependency Injection
-3. Bean Scopes
-4. @Configuration
-5. @Bean
-6. @Component
-7. @ComponentScan
-8. @Import
-9. Bean Lifecycle
-10. AOP
-11. Transactions
-12. Testing
-13. Spring Internals
+3. Constructor Injection
+4. Setter Injection
+5. Field Injection
+6. Bean Scopes
+7. Singleton vs Prototype
+8. Bean Lifecycle
+9. Lazy Initialization
+10. @Component
+11. @ComponentScan
+12. @Import
+13. AOP
+14. Transactions
+15. Testing
+16. Spring Internals
 
 ---
 

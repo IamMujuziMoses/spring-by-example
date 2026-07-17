@@ -1,24 +1,15 @@
 package com.springbyexample.dependencyinjection;
 
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 /**
  * @author Mujuzi Moses
  */
 
-class AppConfigTest {
-
-    @Test
-    void shouldCreateGreetingServiceBean() {
-
-        var context = new AnnotationConfigApplicationContext(AppConfig.class);
-        GreetingService greetingService = context.getBean(GreetingService.class);
-        assertNotNull(greetingService);
-
-    }
+public class HelloServiceTest {
 
     @Test
     void shouldCreateHelloServiceBean() {
