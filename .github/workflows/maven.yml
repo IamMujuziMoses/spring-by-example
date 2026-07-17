@@ -1,10 +1,9 @@
 name: Maven Build
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
   pull_request:
+  push:
     branches:
       - main
 
@@ -12,6 +11,11 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+      checks: write
 
     steps:
       - name: Checkout repository

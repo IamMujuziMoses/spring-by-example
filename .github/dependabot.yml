@@ -1,0 +1,63 @@
+version: 2
+
+updates:
+
+  # Root Maven project
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+    commit-message:
+      prefix: "(deps)"
+    pull-request-branch-name:
+      separator: "-"
+
+  # Hello Bean module
+  - package-ecosystem: "maven"
+    directory: "/fundamentals/hello-bean"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+    commit-message:
+      prefix: "(deps)"
+    pull-request-branch-name:
+      separator: "-"
+
+  # Dependency Injection module
+  - package-ecosystem: "maven"
+    directory: "/fundamentals/dependency-injection"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+    commit-message:
+      prefix: "(deps)"
+    pull-request-branch-name:
+      separator: "-"
+
+  # Constructor Injection module
+  - package-ecosystem: "maven"
+    directory: "/fundamentals/constructor-injection"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+    commit-message:
+      prefix: "(deps)"
+    pull-request-branch-name:
+      separator: "-"

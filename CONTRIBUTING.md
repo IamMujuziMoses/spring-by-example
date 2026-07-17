@@ -188,13 +188,13 @@ Before submitting a pull request:
 - Update documentation if needed.
 - Follow the repository structure.
 
-Thank you for helping make Spring by Example better!
-
 ---
 
 ## After
 
-Update the [ROADMAP.md](ROADMAP.md) to update the status and to prevent other contributors from working on the already 
+Update the [ROADMAP.md](ROADMAP.md) to update the status and to prevent other contributors from working on the already.
 finished steps.
+
+Thank you for helping make Spring by Example better!
 
 ---
