@@ -17,10 +17,10 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 ## Hello Spring
 
 - [x] Hello Bean
-- 🚧 Dependency Injection
-- 🚧 Constructor Injection
-- [ ] Setter Injection
-- [ ] Field Injection
+- [x] Dependency Injection
+- [x] Constructor Injection
+- 🚧 Setter Injection
+- 🚧 Field Injection
 - [ ] Bean Scopes
 - [ ] Singleton vs Prototype
 - [ ] Bean Lifecycle

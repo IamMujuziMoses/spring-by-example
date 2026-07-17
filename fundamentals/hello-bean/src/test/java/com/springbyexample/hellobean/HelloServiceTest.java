@@ -9,7 +9,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * @author Mujuzi Moses
  */
 
-public class AppConfigTest {
+public class HelloServiceTest {
 
     @Test
     void shouldCreateHelloServiceBean() {
