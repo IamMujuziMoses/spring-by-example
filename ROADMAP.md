@@ -19,8 +19,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Hello Bean
 - [x] Dependency Injection
 - [x] Constructor Injection
-- 🚧 Setter Injection
+- [x] Setter Injection
 - 🚧 Field Injection
+- 🚧Choosing an Injection Strategy
 - [ ] Bean Scopes
 - [ ] Singleton vs Prototype
 - [ ] Bean Lifecycle
