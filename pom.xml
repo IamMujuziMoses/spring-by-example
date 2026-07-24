@@ -21,6 +21,7 @@
         <module>fundamentals/constructor-injection</module>
         <module>fundamentals/setter-injection</module>
         <module>fundamentals/field-injection</module>
+        <module>fundamentals/choosing-injection-strategy</module>
     </modules>
 
     <properties>

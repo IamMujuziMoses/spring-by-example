@@ -1,0 +1,21 @@
+package com.springbyexample.choosinginjectionstrategy;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+/**
+ * @author Mujuzi Moses
+ */
+@Configuration
+public class AppConfig {
+
+    @Bean
+    public EmailService emailService() {
+        return new EmailService();
+    }
+
+    @Bean
+    public NotificationService notificationService(EmailService emailService) {
+        return new NotificationService(emailService);
+    }
+}
