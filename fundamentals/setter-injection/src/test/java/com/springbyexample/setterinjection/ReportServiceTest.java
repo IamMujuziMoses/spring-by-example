@@ -27,6 +27,6 @@ public class ReportServiceTest {
 
         // If Spring failed to inject PrinterService,
         // calling generateReport() would fail.
-        reportService.generateReport();
+        reportService.generateReport("Monthly Sales Report...");
     }
 }

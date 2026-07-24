@@ -1,16 +1,15 @@
-package com.springbyexample.setterinjection;
+package com.springbyexample.fieldinjection;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
  * @author Mujuzi Moses
  */
-
 public class Main {
     public static void main(String[] args) {
 
         var context = new AnnotationConfigApplicationContext(AppConfig.class);
-        ReportService service = context.getBean(ReportService.class);
-        service.generateReport("Monthly Sales Report");
+        NotificationService service = context.getBean(NotificationService.class);
+        service.notify("Welcome to Spring!");
     }
 }
