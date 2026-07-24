@@ -21,9 +21,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Constructor Injection
 - [x] Setter Injection
 - [x] Field Injection
-- 🚧Choosing an Injection Strategy
+- [x] Choosing an Injection Strategy
 - 🚧 Bean Scopes
-- [ ] Singleton vs Prototype
+- 🚧  Singleton vs Prototype
 - [ ] Bean Lifecycle
 - [ ] Lazy Initialization
 
