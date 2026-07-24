@@ -12,9 +12,9 @@ public class ReportService {
         this.printerService = printerService;
     }
 
-    public void generateReport() {
+    public void generateReport(String report) {
         if (printerService != null) {
-            printerService.print("Monthly Sales Report");
+            printerService.print(report);
         }
     }
 }
