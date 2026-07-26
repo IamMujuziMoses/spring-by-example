@@ -12,9 +12,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ---
 
-# Phase 1 — Fundamentals
+# Module 1 — Fundamentals
 
-## Hello Spring
+### Learn the core concepts behind the Spring IoC container.
 
 - [x] Hello Bean
 - [x] Dependency Injection
@@ -22,14 +22,25 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Setter Injection
 - [x] Field Injection
 - [x] Choosing an Injection Strategy
-- 🚧 Bean Scopes
-- 🚧  Singleton vs Prototype
-- [ ] Bean Lifecycle
-- [ ] Lazy Initialization
 
 ---
 
-# Phase 2 — Configuration
+# Module 2. Bean Scopes
+
+### Learn how Spring manages bean instances within the IoC container.
+
+- 🚧 Overview
+- 🚧 Singleton Scope
+- 🚧 Prototype Scope
+- [ ] Request Scope
+- [ ] Session Scope
+- [ ] Application Scope
+
+---
+
+# Module 3 — Configuration
+
+### Learn the different ways Spring registers beans.
 
 - [ ] @Configuration
 - [ ] @Bean
@@ -46,7 +57,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ---
 
-# Phase 3 — Dependency Injection
+# Module 4 — Dependency Injection
+
+### Master advanced dependency injection techniques.
 
 - [ ] @Primary
 - [ ] @Qualifier
@@ -59,7 +72,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ---
 
-# Phase 4 — Bean Lifecycle
+# Module 5 — Bean Lifecycle
+
+### Understand how Spring creates, initializes, and destroys beans.
 
 - [ ] InitializingBean
 - [ ] DisposableBean
@@ -71,7 +86,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ---
 
-# Phase 5 — Events
+# Module 6 — Spring Events
+
+### Learn event-driven programming with Spring.
 
 - [ ] Publishing Events
 - [ ] Listening for Events
@@ -81,7 +98,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ---
 
-# Phase 6 — Spring AOP
+# Module 7 — Spring AOP
+
+### Understand Aspect-Oriented Programming.
 
 - [ ] What is AOP?
 - [ ] JDK Dynamic Proxies
@@ -95,7 +114,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ---
 
-# Phase 7 — Transactions
+# Module 8 — Transactions
+
+### Learn declarative and programmatic transaction management.
 
 - [ ] @Transactional
 - [ ] Transaction Propagation
@@ -106,7 +127,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ---
 
-# Phase 8 — Spring Boot
+# Module 9 — Spring Boot
+
+### Learn the foundations of Spring Boot.
 
 - [ ] SpringApplication
 - [ ] Auto Configuration
@@ -118,7 +141,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ---
 
-# Phase 9 — Testing
+# Module 10 — Testing
+
+### Learn how to test Spring applications.
 
 - [ ] Unit Testing
 - [ ] Spring TestContext
@@ -129,7 +154,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ---
 
-# Phase 10 — Advanced Spring
+# Module 11 — Advanced Spring
+
+### Explore advanced Spring container features.
 
 - [ ] BeanFactory
 - [ ] ApplicationContext
@@ -152,7 +179,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ---
 
-# Phase 11 — Spring Internals
+# Module 12 — Spring Internals
+
+### Discover what happens behind the scenes.
 
 - [ ] How Beans Are Registered
 - [ ] How Dependency Injection Works
@@ -166,7 +195,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ---
 
-# Phase 12 — OpenMRS Examples
+# Module 13 — OpenMRS Examples
+
+### See how Spring concepts are applied in a real-world OpenMRS application.
 
 Examples showing how Spring concepts are applied in OpenMRS.
 
@@ -182,6 +213,8 @@ Examples showing how Spring concepts are applied in OpenMRS.
 ---
 
 # Future Ideas
+
+### Potential additions after v1.0.
 
 - [ ] Kotlin Examples
 - [ ] GraalVM Native Images
