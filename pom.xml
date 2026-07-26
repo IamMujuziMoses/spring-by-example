@@ -16,12 +16,16 @@
     </description>
 
     <modules>
-        <module>fundamentals/hello-bean</module>
-        <module>fundamentals/dependency-injection</module>
-        <module>fundamentals/constructor-injection</module>
-        <module>fundamentals/setter-injection</module>
-        <module>fundamentals/field-injection</module>
-        <module>fundamentals/choosing-injection-strategy</module>
+        <!--     01 fundamentals        -->
+        <module>01-fundamentals/hello-bean</module>
+        <module>01-fundamentals/dependency-injection</module>
+        <module>01-fundamentals/constructor-injection</module>
+        <module>01-fundamentals/setter-injection</module>
+        <module>01-fundamentals/field-injection</module>
+        <module>01-fundamentals/choosing-injection-strategy</module>
+
+        <!--    02 bean scopes         -->
+        <module>02-bean-scopes/overview</module>
     </modules>
 
     <properties>
