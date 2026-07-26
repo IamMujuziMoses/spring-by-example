@@ -29,7 +29,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ### Learn how Spring manages bean instances within the IoC container.
 
-- 🚧 Overview
+- [x] Overview
 - 🚧 Singleton Scope
 - 🚧 Prototype Scope
 - [ ] Request Scope
