@@ -27,6 +27,7 @@
         <!--    02 bean scopes         -->
         <module>02-bean-scopes/overview</module>
         <module>02-bean-scopes/singleton-scope</module>
+        <module>02-bean-scopes/prototype-scope</module>
     </modules>
 
     <properties>

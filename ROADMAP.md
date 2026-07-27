@@ -31,9 +31,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 - [x] Overview
 - [x] Singleton Scope
-- 🚧 Prototype Scope
+- [x] Prototype Scope
 - 🚧 Request Scope
-- [ ] Session Scope
+- 🚧 Session Scope
 - [ ] Application Scope
 
 ---
