@@ -28,6 +28,9 @@
         <module>02-bean-scopes/overview</module>
         <module>02-bean-scopes/singleton-scope</module>
         <module>02-bean-scopes/prototype-scope</module>
+
+        <!--    03 Configuration         -->
+        <module>03-configuration/configuration</module>
     </modules>
 
     <properties>

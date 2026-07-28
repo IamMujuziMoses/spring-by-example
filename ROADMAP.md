@@ -32,8 +32,8 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Overview
 - [x] Singleton Scope
 - [x] Prototype Scope
-- 🚧 Request Scope
-- 🚧 Session Scope
+- [ ] Request Scope
+- [ ] Session Scope
 - [ ] Application Scope
 
 ---
@@ -42,9 +42,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ### Learn the different ways Spring registers beans.
 
-- [ ] @Configuration
-- [ ] @Bean
-- [ ] @Component
+- [x] @Configuration
+- 🚧 @Bean
+- 🚧 @Component
 - [ ] @Service
 - [ ] @Repository
 - [ ] @Controller
