@@ -43,9 +43,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 ### Learn the different ways Spring registers beans.
 
 - [x] @Configuration
-- 🚧 @Bean
+- [x] @Bean
 - 🚧 @Component
-- [ ] @Service
+- 🚧 @Service
 - [ ] @Repository
 - [ ] @Controller
 - [ ] @ComponentScan
