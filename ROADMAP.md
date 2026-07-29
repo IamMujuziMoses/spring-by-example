@@ -44,10 +44,10 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 - [x] @Configuration
 - [x] @Bean
-- 🚧 @Component
-- 🚧 @Service
-- [ ] @Repository
-- [ ] @Controller
+- [x] @Component
+- [x] @Service
+- 🚧 @Repository
+- 🚧 @Controller
 - [ ] @ComponentScan
 - [ ] @Import
 - [ ] @ImportResource
