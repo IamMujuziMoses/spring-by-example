@@ -32,6 +32,7 @@
         <!--    03 Configuration         -->
         <module>03-configuration/configuration</module>
         <module>03-configuration/bean</module>
+        <module>03-configuration/component</module>
     </modules>
 
     <properties>
