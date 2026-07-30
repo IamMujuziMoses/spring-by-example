@@ -2,15 +2,15 @@
 
 > Learn the Spring Framework through small, focused, runnable examples.
 
-Spring by Example is a curated collection of practical Spring Framework examples designed to help developers understand **how Spring works**, not just how to use it.
+**Spring by Example** is a curated collection of practical Spring Framework examples designed to help developers understand **how Spring works**, not just how to use it.
 
-Each example focuses on a single concept, includes minimal production-quality code, and explains the reasoning behind the solution.
+Rather than presenting a large sample application, this repository breaks Spring down into small, independent modules. Each example focuses on a single concept, contains minimal production-quality code, and includes detailed explanations to help you understand both the *how* and the *why*.
 
-Whether you're learning Spring for the first time or exploring its internals, this repository aims to provide clear, runnable examples that answer real-world questions.
+Whether you're learning Spring for the first time, preparing for interviews, or exploring the framework's internals, this repository provides a structured learning path from the fundamentals to advanced topics.
 
 ---
 
-![Java](https://img.shields.io/badge/Java-21-red?style=for-the-badge&logo=paperlessngx)
+![Java](https://img.shields.io/badge/Java-21-red?style=for-the-badge&logo=openjdk)
 ![Spring](https://img.shields.io/badge/Spring-Framework-orange?style=for-the-badge&logo=spring&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=coveralls)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-green?style=for-the-badge&logo=github)
@@ -23,142 +23,292 @@ Whether you're learning Spring for the first time or exploring its internals, th
 - ✅ One concept per example
 - ✅ Small, runnable projects
 - ✅ Clear explanations
-- ✅ Real-world use cases
-- ✅ Minimal boilerplate
-- ✅ Easy to experiment with
+- ✅ Production-quality code
+- ✅ Comprehensive documentation
+- ✅ Unit tests for every module
+- ✅ Progressive learning path
 
 ---
 
 ## Why Spring by Example?
 
-Spring has excellent documentation, but sometimes you don't need a complete guide—you just need a minimal, runnable example that demonstrates a single concept.
+Spring has outstanding documentation, but there are times when you don't need an entire reference guide—you just need a small, runnable example that demonstrates a single concept.
 
-This repository focuses on:
+This repository is built around that philosophy.
 
-- One concept at a time
-- Minimal code
-- Runnable examples
-- Practical explanations
-- Real-world scenarios
+Every module is designed to:
 
-The goal isn't just to show *what* works, but *why* it works.
+- Teach one concept at a time.
+- Keep examples small and easy to understand.
+- Explain *why* something works, not just *how* to use it.
+- Build naturally toward more advanced Spring concepts.
+- Encourage experimentation by keeping each example independent.
 
 ---
 
 ## Repository Structure
 
-```
-spring-by-example
+```text
+spring-by-example/
+│
 ├── fundamentals/
+│
+├── bean-scopes/
+│
 ├── configuration/
-├── injection/
-├── lifecycle/
+│
+├── dependency-injection/
+│
+├── bean-lifecycle/
+│
 ├── events/
+│
 ├── aop/
+│
 ├── transactions/
-├── testing/
+│
 ├── spring-boot/
+│
+├── testing/
+│
 ├── advanced/
+│
+├── spring-internals/
+│
 └── openmrs/
 ```
 
-Each directory contains independent examples that can be run and explored individually.
+Each directory contains independent examples that can be built and run on their own.
 
 ---
 
-## Learning Path
+## Learning Roadmap
 
-If you're new to Spring, follow this order:
+The repository is organized into progressive modules.
 
-1. Hello Bean
-2. Dependency Injection
-3. Constructor Injection
-4. Setter Injection
-5. Field Injection
-6. Bean Scopes
-7. Singleton vs Prototype
-8. Bean Lifecycle
-9. Lazy Initialization
-10. @Component
-11. @ComponentScan
-12. @Import
-13. AOP
-14. Transactions
-15. Testing
-16. Spring Internals
+### Module 1 — Fundamentals ✅
 
----
-
-## Planned Topics
-
-### Fundamentals
+Learn the core concepts of the Spring IoC container.
 
 - Hello Bean
-- Bean Lifecycle
 - Dependency Injection
-- Bean Scopes
-- Singleton vs Prototype
-
-### Configuration
-
-- `@Bean`
-- `@Component`
-- `@ComponentScan`
-- `@Import`
-- `@ImportResource`
-- `@Profile`
-- `@Conditional`
-
-### Dependency Injection
-
 - Constructor Injection
 - Setter Injection
 - Field Injection
-- `@Qualifier`
+- Choosing an Injection Strategy
+
+---
+
+### Module 2 — Bean Scopes 🚧
+
+Learn how Spring manages bean instances.
+
+- Overview
+- Singleton Scope
+- Prototype Scope
+- Request Scope
+- Session Scope
+- Application Scope
+
+---
+
+### Module 3 — Configuration 🚧
+
+Learn the different ways Spring registers beans.
+
+- `@Configuration`
+- `@Bean`
+- `@Component`
+- `@Service`
+- `@Repository`
+- `@Controller`
+- `@ComponentScan`
+- `@Import`
+- XML Configuration
+- Java Configuration
+- `@ImportResource`
+- Mixing XML and Java Configuration
+
+---
+
+### Module 4 — Dependency Injection
+
+Master advanced dependency injection techniques.
+
 - `@Primary`
-- `@Lazy`
+- `@Qualifier`
+- Optional Dependencies
+- Collection Injection
+- Map Injection
+- ObjectProvider
+- Circular Dependencies
+- Bean Aliases
 
-### Spring AOP
+---
 
-- JDK Dynamic Proxies
-- CGLIB
-- Custom Aspects
-- Method Interceptors
+### Module 5 — Bean Lifecycle
 
-### Transactions
+Understand how Spring manages beans from creation to destruction.
 
-- `@Transactional`
-- Transaction Propagation
-- Rollback Rules
-- Programmatic Transactions
+- InitializingBean
+- DisposableBean
+- `@PostConstruct`
+- `@PreDestroy`
+- BeanPostProcessor
+- BeanFactoryPostProcessor
+- SmartLifecycle
 
-### Events
+---
+
+### Module 6 — Events
+
+Explore Spring's event system.
 
 - Publishing Events
 - Listening for Events
 - Custom Events
+- Transactional Events
+- Async Events
 
-### Testing
+---
+
+### Module 7 — Spring AOP
+
+Learn Aspect-Oriented Programming in Spring.
+
+- What is AOP?
+- JDK Dynamic Proxies
+- CGLIB Proxies
+- Creating an Aspect
+- Before Advice
+- After Advice
+- Around Advice
+- Pointcuts
+- Advice Ordering
+
+---
+
+### Module 8 — Transactions
+
+Understand transaction management.
+
+- `@Transactional`
+- Transaction Propagation
+- Isolation Levels
+- Rollback Rules
+- Programmatic Transactions
+- TransactionProxyFactoryBean
+
+---
+
+### Module 9 — Spring Boot
+
+Build modern Spring applications.
+
+- SpringApplication
+- Auto Configuration
+- Starter Dependencies
+- Configuration Properties
+- Profiles
+- CommandLineRunner
+- Actuator
+
+---
+
+### Module 10 — Testing
+
+Write reliable Spring applications.
 
 - Unit Testing
+- Spring TestContext
+- `@SpringBootTest`
+- MockBean
+- TestConfiguration
 - Integration Testing
-- TestContext Framework
-- Mocking Beans
 
-### Advanced
+---
+
+### Module 11 — Advanced Spring
+
+Dive deeper into the framework.
 
 - BeanFactory
 - ApplicationContext
-- BeanPostProcessor
 - FactoryBean
+- BeanDefinition
+- BeanDefinitionRegistry
 - ImportSelector
-- BeanDefinitionRegistryPostProcessor
+- DeferredImportSelector
+- ImportBeanDefinitionRegistrar
 - Environment
 - Property Sources
+- Resource Loading
+- MessageSource
+- ConversionService
+- Validation
+- Spring Expression Language (SpEL)
+- Method Injection
+- `@Lookup`
 
-### OpenMRS
+---
 
-Examples demonstrating how Spring concepts are applied in OpenMRS.
+### Module 12 — Spring Internals
+
+Understand what happens behind the scenes.
+
+- How Beans Are Registered
+- How Dependency Injection Works
+- How Component Scanning Works
+- How `@Autowired` Works
+- How `@Transactional` Works
+- How AOP Proxies Are Created
+- How Bean Post Processors Work
+- Understanding DefaultListableBeanFactory
+- Understanding ConfigurationClassPostProcessor
+
+---
+
+### Module 13 — OpenMRS Examples
+
+See how Spring concepts are applied in a real-world project.
+
+Examples include:
+
+- Service Registration
+- Module Loading
+- XML to Java Configuration
+- OpenmrsBeanRegistrar
+- ServiceContext
+- AOP in OpenMRS
+- Transaction Management
+- Custom Spring Profiles
+
+---
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/spring-by-example.git
+```
+
+Choose any module and run it independently using Maven.
+
+For example:
+
+```bash
+cd fundamentals/hello-bean
+mvn clean test
+```
+
+Each module contains:
+
+- A focused example
+- Source code
+- Unit tests
+- Detailed documentation
+- Suggested next steps
 
 ---
 
@@ -166,15 +316,13 @@ Examples demonstrating how Spring concepts are applied in OpenMRS.
 
 Contributions are welcome!
 
-Please read the [CONTRIBUTING.md](CONTRIBUTING.md) guide before opening a pull request.
+If you'd like to improve an example, fix an issue, or add a new learning module, please read the [CONTRIBUTING.md](CONTRIBUTING.md) guide before opening a pull request.
 
 ---
 
 ## Roadmap
 
-See our roadmap
-
-Please read the [ROADMAP.md](ROADMAP.md) for the progress of the roadmap.
+The project's progress is tracked in [ROADMAP.md](ROADMAP.md), where you can see completed modules, upcoming topics, and future plans.
 
 ---
 
