@@ -46,9 +46,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] @Bean
 - [x] @Component
 - [x] @Service
-- 🚧 @Repository
+- [x] @Repository
 - 🚧 @Controller
-- [ ] @ComponentScan
+- 🚧 @ComponentScan
 - [ ] @Import
 - [ ] @ImportResource
 - [ ] XML Configuration
