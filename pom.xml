@@ -36,6 +36,8 @@
         <module>03-configuration/service</module>
         <module>03-configuration/repository</module>
         <module>03-configuration/controller</module>
+        <module>03-configuration/component-scan</module>
+        <module>03-configuration/component-scan/untitled</module>
     </modules>
 
     <properties>
