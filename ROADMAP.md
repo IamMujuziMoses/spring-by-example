@@ -50,9 +50,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] @Controller
 - [x] @ComponentScan
 - [x] @Import
-- 🚧 @ImportResource
+- [x] @ImportResource
 - 🚧 XML Configuration
-- [ ] Java Configuration
+- 🚧 Java Configuration
 - [ ] Mixing XML and Java Config
 
 ---

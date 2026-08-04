@@ -38,6 +38,7 @@
         <module>03-configuration/controller</module>
         <module>03-configuration/component-scan</module>
         <module>03-configuration/import-config</module>
+        <module>03-configuration/import-resource</module>
     </modules>
 
     <properties>
