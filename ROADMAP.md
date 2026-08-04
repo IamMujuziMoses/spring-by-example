@@ -51,9 +51,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] @ComponentScan
 - [x] @Import
 - [x] @ImportResource
-- 🚧 XML Configuration
+- [x] XML Configuration
 - 🚧 Java Configuration
-- [ ] Mixing XML and Java Config
+- 🚧 Mixing XML and Java Config
 
 ---
 

@@ -39,6 +39,7 @@
         <module>03-configuration/component-scan</module>
         <module>03-configuration/import-config</module>
         <module>03-configuration/import-resource</module>
+        <module>03-configuration/xml-config</module>
     </modules>
 
     <properties>
