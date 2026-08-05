@@ -99,20 +99,17 @@ Learn the core concepts of the Spring IoC container.
 
 ---
 
-### Module 2 — Bean Scopes 🚧
+### Module 2 — Bean Scopes ✅
 
 Learn how Spring manages bean instances.
 
 - Overview
 - Singleton Scope
 - Prototype Scope
-- Request Scope
-- Session Scope
-- Application Scope
 
 ---
 
-### Module 3 — Configuration 🚧
+### Module 3 — Configuration ✅
 
 Learn the different ways Spring registers beans.
 
@@ -131,7 +128,7 @@ Learn the different ways Spring registers beans.
 
 ---
 
-### Module 4 — Dependency Injection
+### Module 4 — Dependency Injection 🚧
 
 Master advanced dependency injection techniques.
 
@@ -215,7 +212,27 @@ Build modern Spring applications.
 
 ---
 
-### Module 10 — Testing
+### Module 10 — Spring Web (Spring MVC)
+
+Build web applications with the Spring MVC framework.
+
+- DispatcherServlet
+- Controllers
+- Request Mapping
+- Path Variables
+- Request Parameters
+- Request Body
+- Response Body
+- Model and View
+- View Resolvers
+- Exception Handling
+- Request Scope
+- Session Scope
+- Application Scope
+
+---
+
+### Module 11 — Testing
 
 Write reliable Spring applications.
 
@@ -228,7 +245,7 @@ Write reliable Spring applications.
 
 ---
 
-### Module 11 — Advanced Spring
+### Module 12 — Advanced Spring
 
 Dive deeper into the framework.
 
@@ -252,7 +269,7 @@ Dive deeper into the framework.
 
 ---
 
-### Module 12 — Spring Internals
+### Module 13 — Spring Internals
 
 Understand what happens behind the scenes.
 
@@ -268,7 +285,7 @@ Understand what happens behind the scenes.
 
 ---
 
-### Module 13 — OpenMRS Examples
+### Module 14 — OpenMRS Examples
 
 See how Spring concepts are applied in a real-world project.
 

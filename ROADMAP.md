@@ -25,16 +25,15 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ---
 
-# Module 2. Bean Scopes
+# Module 2 — Bean Scopes
 
-### Learn how Spring manages bean instances within the IoC container.
+### Learn how Spring manages bean instances within the Spring IoC container.
 
 - [x] Overview
 - [x] Singleton Scope
 - [x] Prototype Scope
-- [ ] Request Scope
-- [ ] Session Scope
-- [ ] Application Scope
+
+> **Note:** Web-specific scopes (`Request`, `Session`, and `Application`) are covered later in the Spring Web section after introducing the web application context.
 
 ---
 
@@ -141,7 +140,27 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ---
 
-# Module 10 — Testing
+# Module 10 — Spring Web (Spring MVC)
+
+### Build web applications with the Spring MVC framework.
+
+- [ ] DispatcherServlet
+- [ ] Controllers
+- [ ] Request Mapping
+- [ ] Path Variables
+- [ ] Request Parameters
+- [ ] Request Body
+- [ ] Response Body
+- [ ] Model and View
+- [ ] View Resolvers
+- [ ] Exception Handling
+- [ ] Request Scope
+- [ ] Session Scope
+- [ ] Application Scope
+
+---
+
+# Module 11 — Testing
 
 ### Learn how to test Spring applications.
 
@@ -154,7 +173,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ---
 
-# Module 11 — Advanced Spring
+# Module 12 — Advanced Spring
 
 ### Explore advanced Spring container features.
 
@@ -179,7 +198,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ---
 
-# Module 12 — Spring Internals
+# Module 13 — Spring Internals
 
 ### Discover what happens behind the scenes.
 
@@ -195,7 +214,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ---
 
-# Module 13 — OpenMRS Examples
+# Module 14 — OpenMRS Examples
 
 ### See how Spring concepts are applied in a real-world OpenMRS application.
 
