@@ -41,6 +41,7 @@
         <module>03-configuration/import-resource</module>
         <module>03-configuration/xml-config</module>
         <module>03-configuration/java-config</module>
+        <module>03-configuration/mixed-config</module>
     </modules>
 
     <properties>
