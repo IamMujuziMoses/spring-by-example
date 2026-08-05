@@ -52,7 +52,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] @Import
 - [x] @ImportResource
 - [x] XML Configuration
-- 🚧 Java Configuration
+- [x] Java Configuration
 - 🚧 Mixing XML and Java Config
 
 ---
@@ -61,7 +61,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ### Master advanced dependency injection techniques.
 
-- [ ] @Primary
+- 🚧 @Primary
 - [ ] @Qualifier
 - [ ] Optional Dependencies
 - [ ] Collection Injection
