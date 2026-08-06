@@ -62,7 +62,8 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 - [x] @Primary
 - [x] @Qualifier
-- 🚧 Collection Injection
+- [x] Collection Injection
+- 🚧 @Order
 - 🚧 Map Injection
 - [ ] Bean Aliases
 - [ ] Optional Dependencies
