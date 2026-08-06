@@ -61,13 +61,13 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 ### Master advanced dependency injection techniques.
 
 - [x] @Primary
-- 🚧 @Qualifier
-- 🚧 Optional Dependencies
-- [ ] Collection Injection
-- [ ] Map Injection
+- [x] @Qualifier
+- 🚧 Collection Injection
+- 🚧 Map Injection
+- [ ] Bean Aliases
+- [ ] Optional Dependencies
 - [ ] ObjectProvider
 - [ ] Circular Dependencies
-- [ ] Bean Aliases
 
 ---
 
