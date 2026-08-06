@@ -60,9 +60,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ### Master advanced dependency injection techniques.
 
-- 🚧 @Primary
+- [x] @Primary
 - 🚧 @Qualifier
-- [ ] Optional Dependencies
+- 🚧 Optional Dependencies
 - [ ] Collection Injection
 - [ ] Map Injection
 - [ ] ObjectProvider

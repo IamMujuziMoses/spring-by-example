@@ -16,7 +16,7 @@
     </description>
 
     <modules>
-        <!--     01 fundamentals        -->
+        <!--    01 fundamentals        -->
         <module>01-fundamentals/hello-bean</module>
         <module>01-fundamentals/dependency-injection</module>
         <module>01-fundamentals/constructor-injection</module>
@@ -42,6 +42,9 @@
         <module>03-configuration/xml-config</module>
         <module>03-configuration/java-config</module>
         <module>03-configuration/mixed-config</module>
+
+        <!--    04 Dependency Injection   -->
+        <module>04-dependency-injection/primary</module>
     </modules>
 
     <properties>
