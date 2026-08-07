@@ -64,10 +64,10 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] @Qualifier
 - [x] Collection Injection
 - [x] @Order
-- 🚧 Map Injection
+- [x] Map Injection
+- 🚧 ObjectProvider
 - 🚧 Bean Aliases
 - [ ] Optional Dependencies
-- [ ] ObjectProvider
 - [ ] Circular Dependencies
 
 ---
