@@ -47,6 +47,7 @@
         <module>04-dependency-injection/primary</module>
         <module>04-dependency-injection/qualifier</module>
         <module>04-dependency-injection/collection-injection</module>
+        <module>04-dependency-injection/order</module>
     </modules>
 
     <properties>
