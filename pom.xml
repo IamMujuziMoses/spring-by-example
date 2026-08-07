@@ -49,6 +49,7 @@
         <module>04-dependency-injection/collection-injection</module>
         <module>04-dependency-injection/order</module>
         <module>04-dependency-injection/map-injection</module>
+        <module>04-dependency-injection/object-provider</module>
     </modules>
 
     <properties>
