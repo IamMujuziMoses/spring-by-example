@@ -66,9 +66,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] @Order
 - [x] Map Injection
 - [x] ObjectProvider
+- [x] Optional Dependencies
+- 🚧 Circular Dependencies
 - 🚧 Bean Aliases
-- 🚧 Optional Dependencies
-- [ ] Circular Dependencies
 
 ---
 
