@@ -51,6 +51,7 @@
         <module>04-dependency-injection/map-injection</module>
         <module>04-dependency-injection/object-provider</module>
         <module>04-dependency-injection/optional-dependencies</module>
+        <module>04-dependency-injection/circular-dependencies</module>
     </modules>
 
     <properties>
