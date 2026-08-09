@@ -68,7 +68,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] ObjectProvider
 - [x] Optional Dependencies
 - [x] Circular Dependencies
-- 🚧 Bean Aliases
+- [x] Bean Aliases
 
 ---
 
@@ -77,7 +77,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 ### Understand how Spring creates, initializes, and destroys beans.
 
 - 🚧 InitializingBean
-- [ ] DisposableBean
+- 🚧 DisposableBean
 - [ ] @PostConstruct
 - [ ] @PreDestroy
 - [ ] BeanPostProcessor
