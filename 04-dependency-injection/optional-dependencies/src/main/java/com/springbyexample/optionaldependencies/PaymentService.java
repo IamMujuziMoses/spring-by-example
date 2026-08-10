@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
  * @author Mujuzi Moses
  */
 @Service
+@SuppressWarnings("OptionalUsedAsFieldOrParameterType")
 public class PaymentService {
 
     private final Optional<PaymentNotificationService> notificationService;
