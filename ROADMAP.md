@@ -76,9 +76,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ### Understand how Spring creates, initializes, and destroys beans.
 
-- 🚧 InitializingBean
+- [x] InitializingBean
 - 🚧 DisposableBean
-- [ ] @PostConstruct
+- 🚧 @PostConstruct
 - [ ] @PreDestroy
 - [ ] BeanPostProcessor
 - [ ] BeanFactoryPostProcessor
