@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Configuration;
  * @author Mujuzi Moses
  */
 @Configuration
+@SuppressWarnings("OptionalUsedAsFieldOrParameterType")
 public class PaymentServiceOnlyConfig {
 
     @Bean

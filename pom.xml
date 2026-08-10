@@ -56,6 +56,7 @@
 
         <!--    05 Bean Lifecycle         -->
         <module>05-bean-lifecycle/initializing-bean</module>
+        <module>05-bean-lifecycle/disposable-bean</module>
     </modules>
 
     <properties>
