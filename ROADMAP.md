@@ -78,9 +78,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 - [x] InitializingBean
 - [x] DisposableBean
-- 🚧 @PostConstruct
+- [x] @PostConstruct
 - 🚧 @PreDestroy
-- [ ] BeanPostProcessor
+- 🚧 BeanPostProcessor
 - [ ] BeanFactoryPostProcessor
 - [ ] SmartLifecycle
 
