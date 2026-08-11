@@ -80,9 +80,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] DisposableBean
 - [x] @PostConstruct
 - [x] @PreDestroy
-- 🚧 BeanPostProcessor
+- [x] BeanPostProcessor
 - 🚧 BeanFactoryPostProcessor
-- [ ] SmartLifecycle
+- 🚧 SmartLifecycle
 
 ---
 

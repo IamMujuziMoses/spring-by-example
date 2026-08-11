@@ -59,6 +59,7 @@
         <module>05-bean-lifecycle/disposable-bean</module>
         <module>05-bean-lifecycle/post-construct</module>
         <module>05-bean-lifecycle/pre-destroy</module>
+        <module>05-bean-lifecycle/bean-post-processor</module>
     </modules>
 
     <properties>
