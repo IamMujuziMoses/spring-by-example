@@ -14,7 +14,7 @@ Whether you're learning Spring for the first time, preparing for interviews, or 
 ![Spring](https://img.shields.io/badge/Spring-Framework-orange?style=for-the-badge&logo=spring&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=coveralls)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-green?style=for-the-badge&logo=github)
-![Coverage](https://img.shields.io/badge/coverage-33%25-indigo?style=for-the-badge&logo=codecov&logoColor=white)
+![Coverage](https://img.shields.io/badge/coverage-42%25-indigo?style=for-the-badge&logo=codecov&logoColor=white)
 
 ---
 
@@ -143,7 +143,7 @@ Master advanced dependency injection techniques.
 
 ---
 
-### Module 5 — Bean Lifecycle 🚧
+### Module 5 — Bean Lifecycle ✅
 
 Understand how Spring manages beans from creation to destruction.
 
@@ -157,7 +157,7 @@ Understand how Spring manages beans from creation to destruction.
 
 ---
 
-### Module 6 — Events
+### Module 6 — Events 🚧
 
 Explore Spring's event system.
 
