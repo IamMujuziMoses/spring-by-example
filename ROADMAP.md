@@ -82,7 +82,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] @PreDestroy
 - [x] BeanPostProcessor
 - [x] BeanFactoryPostProcessor
-- 🚧 SmartLifecycle
+- [x] SmartLifecycle
 
 ---
 
@@ -91,7 +91,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 ### Learn event-driven programming with Spring.
 
 - 🚧 Publishing Events
-- [ ] Listening for Events
+- 🚧 Listening for Events
 - [ ] Custom Events
 - [ ] Transactional Events
 - [ ] Async Events
