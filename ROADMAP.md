@@ -90,9 +90,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ### Learn event-driven programming with Spring.
 
-- 🚧 Publishing Events
+- [x] Publishing Events
 - 🚧 Listening for Events
-- [ ] Custom Events
+- 🚧 Custom Events
 - [ ] Transactional Events
 - [ ] Async Events
 

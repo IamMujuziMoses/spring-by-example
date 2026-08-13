@@ -62,6 +62,9 @@
         <module>05-bean-lifecycle/bean-post-processor</module>
         <module>05-bean-lifecycle/bean-factory-post-processor</module>
         <module>05-bean-lifecycle/smart-lifecycle</module>
+
+        <!--    06 Spring Events         -->
+        <module>06-spring-events/publishing-events</module>
     </modules>
 
     <properties>
