@@ -92,9 +92,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 - [x] Publishing Events
 - [x] Listening for Events
-- 🚧 Custom Events
+- [x] Custom Events
 - 🚧 Transactional Events
-- [ ] Async Events
+- 🚧 Async Events
 
 ---
 

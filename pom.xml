@@ -66,6 +66,7 @@
         <!--    06 Spring Events         -->
         <module>06-spring-events/publishing-events</module>
         <module>06-spring-events/listening-for-events</module>
+        <module>06-spring-events/custom-events</module>
     </modules>
 
     <properties>
