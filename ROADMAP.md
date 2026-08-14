@@ -94,7 +94,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Listening for Events
 - [x] Custom Events
 - [x] Transactional Events
-- 🚧 Async Events
+- [x] Async Events
 
 ---
 
@@ -103,7 +103,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 ### Understand Aspect-Oriented Programming.
 
 - 🚧 What is AOP?
-- [ ] JDK Dynamic Proxies
+- 🚧 JDK Dynamic Proxies
 - [ ] CGLIB Proxies
 - [ ] Creating an Aspect
 - [ ] Before Advice
