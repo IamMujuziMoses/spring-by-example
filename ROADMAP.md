@@ -93,7 +93,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Publishing Events
 - [x] Listening for Events
 - [x] Custom Events
-- 🚧 Transactional Events
+- [x] Transactional Events
 - 🚧 Async Events
 
 ---
@@ -102,7 +102,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ### Understand Aspect-Oriented Programming.
 
-- [ ] What is AOP?
+- 🚧 What is AOP?
 - [ ] JDK Dynamic Proxies
 - [ ] CGLIB Proxies
 - [ ] Creating an Aspect
