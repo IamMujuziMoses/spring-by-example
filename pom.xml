@@ -68,6 +68,7 @@
         <module>06-spring-events/listening-for-events</module>
         <module>06-spring-events/custom-events</module>
         <module>06-spring-events/transactional-events</module>
+        <module>06-spring-events/async-events</module>
     </modules>
 
     <properties>
