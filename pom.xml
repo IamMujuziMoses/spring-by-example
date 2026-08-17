@@ -73,6 +73,7 @@
         <!--    07 Spring AOP            -->
         <module>07-spring-aop/what-is-aop</module>
         <module>07-spring-aop/jdk-dynamic-proxy</module>
+        <module>07-spring-aop/cglib-proxy</module>
     </modules>
 
     <properties>
