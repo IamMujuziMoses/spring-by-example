@@ -104,9 +104,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 - [x] What is AOP?
 - [x] JDK Dynamic Proxies
-- 🚧 CGLIB Proxies
+- [x] CGLIB Proxies
 - 🚧 Creating an Aspect
-- [ ] Before Advice
+- 🚧 Before Advice
 - [ ] After Advice
 - [ ] Around Advice
 - [ ] Pointcuts
