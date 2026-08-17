@@ -102,10 +102,10 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ### Understand Aspect-Oriented Programming.
 
-- x What is AOP?
-- 🚧 JDK Dynamic Proxies
+- [x] What is AOP?
+- [x] JDK Dynamic Proxies
 - 🚧 CGLIB Proxies
-- [ ] Creating an Aspect
+- 🚧 Creating an Aspect
 - [ ] Before Advice
 - [ ] After Advice
 - [ ] Around Advice
