@@ -69,6 +69,9 @@
         <module>06-spring-events/custom-events</module>
         <module>06-spring-events/transactional-events</module>
         <module>06-spring-events/async-events</module>
+
+        <!--    07 Spring AOP            -->
+        <module>07-spring-aop/what-is-aop</module>
     </modules>
 
     <properties>
