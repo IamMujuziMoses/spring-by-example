@@ -1,0 +1,11 @@
+### `.gitlab-ci.yml`
+
+image: maven:3.9-eclipse-temurin-21
+
+stages:
+  - build
+
+maven-build:
+  stage: build
+  script:
+    - mvn clean install
