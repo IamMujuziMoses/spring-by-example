@@ -75,6 +75,7 @@
         <module>07-spring-aop/jdk-dynamic-proxy</module>
         <module>07-spring-aop/cglib-proxy</module>
         <module>07-spring-aop/creating-an-aspect</module>
+        <module>07-spring-aop/before-advice</module>
     </modules>
 
     <properties>
