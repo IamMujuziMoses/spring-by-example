@@ -107,7 +107,8 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] CGLIB Proxies
 - [x] Creating an Aspect
 - [x] Before Advice
-- 🚧 After Advice
+- [x] After Advice
+- 🚧 After Returning Advice
 - 🚧 Around Advice
 - [ ] Pointcuts
 - [ ] Advice Ordering
