@@ -106,9 +106,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] JDK Dynamic Proxies
 - [x] CGLIB Proxies
 - [x] Creating an Aspect
-- 🚧 Before Advice
+- [x] Before Advice
 - 🚧 After Advice
-- [ ] Around Advice
+- 🚧 Around Advice
 - [ ] Pointcuts
 - [ ] Advice Ordering
 
