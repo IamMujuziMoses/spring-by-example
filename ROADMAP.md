@@ -109,9 +109,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Before Advice
 - [x] After Advice
 - [x] After Returning Advice
-- 🚧 Around Advice
+- [x] Around Advice
 - 🚧 Pointcuts
-- [ ] Advice Ordering
+- 🚧 Advice Ordering
 
 ---
 

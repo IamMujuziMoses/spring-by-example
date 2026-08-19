@@ -78,6 +78,7 @@
         <module>07-spring-aop/before-advice</module>
         <module>07-spring-aop/after-advice</module>
         <module>07-spring-aop/after-returning-advice</module>
+        <module>07-spring-aop/around-advice</module>
     </modules>
 
     <properties>
