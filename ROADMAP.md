@@ -108,9 +108,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Creating an Aspect
 - [x] Before Advice
 - [x] After Advice
-- 🚧 After Returning Advice
+- [x] After Returning Advice
 - 🚧 Around Advice
-- [ ] Pointcuts
+- 🚧 Pointcuts
 - [ ] Advice Ordering
 
 ---
