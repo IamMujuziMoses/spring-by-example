@@ -4,8 +4,34 @@ image: maven:3.9-eclipse-temurin-21
 
 stages:
   - build
+  - qodana
+
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository"
+
+cache:
+  key: maven
+  paths:
+    - .m2/repository/
 
 maven-build:
   stage: build
   script:
     - mvn clean install
+
+include:
+  - component: $CI_SERVER_FQDN/qodana/qodana/qodana-gitlab-ci@v2026.1
+    inputs:
+      image: jetbrains/qodana-jvm-community:2026.2
+
+qodana:
+  rules:
+    # Analyze merge requests
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      variables:
+        GIT_DEPTH: 0
+
+    # Analyze main
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      variables:
+        QODANA_MR_MODE: "false"
