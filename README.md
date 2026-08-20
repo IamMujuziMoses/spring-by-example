@@ -14,7 +14,7 @@ Whether you're learning Spring for the first time, preparing for interviews, or 
 ![Spring](https://img.shields.io/badge/Spring-Framework-orange?style=for-the-badge&logo=spring&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=coveralls)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-green?style=for-the-badge&logo=github)
-![Coverage](https://img.shields.io/badge/coverage-50%25-indigo?style=for-the-badge&logo=codecov&logoColor=white)
+![Coverage](https://img.shields.io/badge/coverage-53.85%25-indigo?style=for-the-badge&logo=codecov&logoColor=white)
 
 ---
 
@@ -169,7 +169,7 @@ Explore Spring's event system.
 
 ---
 
-### Module 7 — Spring AOP 🚧
+### Module 7 — Spring AOP ✅
 
 Learn Aspect-Oriented Programming in Spring.
 
@@ -179,13 +179,14 @@ Learn Aspect-Oriented Programming in Spring.
 - Creating an Aspect
 - Before Advice
 - After Advice
+- After Returning Advice
 - Around Advice
 - Pointcuts
 - Advice Ordering
 
 ---
 
-### Module 8 — Transactions
+### Module 8 — Transactions 🚧
 
 Understand transaction management.
 
