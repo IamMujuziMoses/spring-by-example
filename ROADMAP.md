@@ -119,9 +119,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ### Learn declarative and programmatic transaction management.
 
-- 🚧 @Transactional
+- [x] @Transactional
 - 🚧 Transaction Propagation
-- [ ] Isolation Levels
+- 🚧 Isolation Levels
 - [ ] Rollback Rules
 - [ ] Programmatic Transactions
 - [ ] TransactionProxyFactoryBean
