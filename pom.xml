@@ -81,6 +81,9 @@
         <module>07-spring-aop/around-advice</module>
         <module>07-spring-aop/pointcuts</module>
         <module>07-spring-aop/advice-ordering</module>
+
+        <!--    08 Transactions          -->
+        <module>08-transactions/transactional</module>
     </modules>
 
     <properties>

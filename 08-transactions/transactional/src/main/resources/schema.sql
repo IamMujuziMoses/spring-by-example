@@ -1,0 +1,4 @@
+CREATE TABLE greetings (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    message VARCHAR(255)
+);
