@@ -20,6 +20,8 @@ public class GreetingRepository {
     }
 
     public int count() {
-        return jdbcTemplate.queryForObject("SELECT COUNT(*) FROM greetings", Integer.class);
+        Integer count = jdbcTemplate.queryForObject("SELECT COUNT(*) FROM greetings", Integer.class);
+
+        return count != null ? count : 0;
     }
 }
