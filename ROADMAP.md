@@ -111,7 +111,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] After Returning Advice
 - [x] Around Advice
 - [x] Pointcuts
-- 🚧 Advice Ordering
+- [x] Advice Ordering
 
 ---
 
@@ -120,7 +120,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 ### Learn declarative and programmatic transaction management.
 
 - 🚧 @Transactional
-- [ ] Transaction Propagation
+- 🚧 Transaction Propagation
 - [ ] Isolation Levels
 - [ ] Rollback Rules
 - [ ] Programmatic Transactions
