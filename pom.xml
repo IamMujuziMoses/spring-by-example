@@ -84,6 +84,7 @@
 
         <!--    08 Transactions          -->
         <module>08-transactions/transactional</module>
+        <module>08-transactions/transaction-propagation</module>
     </modules>
 
     <properties>
