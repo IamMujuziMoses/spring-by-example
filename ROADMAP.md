@@ -121,9 +121,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 - [x] @Transactional
 - [x] Transaction Propagation
-- 🚧 Isolation Levels
+- [x] Isolation Levels
 - 🚧 Rollback Rules
-- [ ] Programmatic Transactions
+- 🚧 Programmatic Transactions
 - [ ] TransactionProxyFactoryBean
 
 ---

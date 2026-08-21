@@ -85,6 +85,7 @@
         <!--    08 Transactions          -->
         <module>08-transactions/transactional</module>
         <module>08-transactions/transaction-propagation</module>
+        <module>08-transactions/isolation-levels</module>
     </modules>
 
     <properties>
