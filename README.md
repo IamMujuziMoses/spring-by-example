@@ -14,7 +14,7 @@ Whether you're learning Spring for the first time, preparing for interviews, or 
 ![Spring](https://img.shields.io/badge/Spring-Framework-orange?style=for-the-badge&logo=spring&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=coveralls)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-green?style=for-the-badge&logo=github)
-![Coverage](https://img.shields.io/badge/coverage-53.85%25-indigo?style=for-the-badge&logo=codecov&logoColor=white)
+![Coverage](https://img.shields.io/badge/coverage-61.54%25-indigo?style=for-the-badge&logo=codecov&logoColor=white)
 
 ---
 
@@ -69,9 +69,11 @@ spring-by-example/
 │
 ├── spring-boot/
 │
+├── spring-web-mvc/
+│
 ├── testing/
 │
-├── advanced/
+├── advanced-spring/
 │
 ├── spring-internals/
 │
@@ -186,7 +188,7 @@ Learn Aspect-Oriented Programming in Spring.
 
 ---
 
-### Module 8 — Transactions 🚧
+### Module 8 — Transactions ✅
 
 Understand transaction management.
 
@@ -199,7 +201,7 @@ Understand transaction management.
 
 ---
 
-### Module 9 — Spring Boot
+### Module 9 — Spring Boot 🚧
 
 Build modern Spring applications.
 
