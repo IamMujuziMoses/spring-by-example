@@ -88,6 +88,7 @@
         <module>08-transactions/isolation-levels</module>
         <module>08-transactions/rollback-rules</module>
         <module>08-transactions/programmatic-transactions</module>
+        <module>08-transactions/transaction-proxy-factory-bean</module>
     </modules>
 
     <properties>

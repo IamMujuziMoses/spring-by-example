@@ -124,7 +124,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Isolation Levels
 - [x] Rollback Rules
 - [x] Programmatic Transactions
-- 🚧 TransactionProxyFactoryBean
+- [x] TransactionProxyFactoryBean
 
 ---
 
@@ -133,7 +133,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 ### Learn the foundations of Spring Boot.
 
 - 🚧 SpringApplication
-- [ ] Auto Configuration
+- 🚧 Auto Configuration
 - [ ] Starter Dependencies
 - [ ] Configuration Properties
 - [ ] Profiles
