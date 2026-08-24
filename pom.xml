@@ -89,11 +89,14 @@
         <module>08-transactions/rollback-rules</module>
         <module>08-transactions/programmatic-transactions</module>
         <module>08-transactions/transaction-proxy-factory-bean</module>
+
+        <!--    09 Spring Boot           -->
+        <module>09-spring-boot/spring-application</module>
     </modules>
 
     <properties>
         <java.version>21</java.version>
-        <spring.version>6.2.8</spring.version>
+        <spring.version>7.0.9</spring.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
