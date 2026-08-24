@@ -132,9 +132,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ### Learn the foundations of Spring Boot.
 
-- 🚧 SpringApplication
+- [x] SpringApplication
 - 🚧 Auto Configuration
-- [ ] Starter Dependencies
+- 🚧 Starter Dependencies
 - [ ] Configuration Properties
 - [ ] Profiles
 - [ ] CommandLineRunner
