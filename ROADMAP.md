@@ -134,9 +134,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 - [x] SpringApplication
 - [x] Auto Configuration
-- 🚧 Starter Dependencies
+- [x] Starter Dependencies
 - 🚧 Configuration Properties
-- [ ] Profiles
+- 🚧 Profiles
 - [ ] CommandLineRunner
 - [ ] Actuator
 
