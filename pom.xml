@@ -92,6 +92,7 @@
 
         <!--    09 Spring Boot           -->
         <module>09-spring-boot/spring-application</module>
+        <module>09-spring-boot/auto-configuration</module>
     </modules>
 
     <properties>
