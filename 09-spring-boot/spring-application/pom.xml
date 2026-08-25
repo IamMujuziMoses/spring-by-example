@@ -13,10 +13,6 @@
 
     <artifactId>spring-application</artifactId>
 
-    <properties>
-        <spring-boot.version>4.1.0</spring-boot.version>
-    </properties>
-
     <dependencyManagement>
         <dependencies>
 
