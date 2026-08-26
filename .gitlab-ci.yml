@@ -18,9 +18,6 @@ maven-build:
   stage: build
   script:
     - mvn clean install
-  rules:
-    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
-    - if: '$CI_COMMIT_BRANCH == "main"'
 
 include:
   - component: $CI_SERVER_FQDN/qodana/qodana/qodana-gitlab-ci@v2026.1

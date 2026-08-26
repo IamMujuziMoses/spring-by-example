@@ -136,9 +136,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Auto Configuration
 - [x] Starter Dependencies
 - [x] Configuration Properties
-- 🚧 Profiles
+- [x] Profiles
 - 🚧 CommandLineRunner
-- [ ] Actuator
+- 🚧 Actuator
 
 ---
 
