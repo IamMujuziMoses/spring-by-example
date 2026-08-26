@@ -92,6 +92,7 @@
         <module>09-spring-boot/spring-application</module>
         <module>09-spring-boot/auto-configuration</module>
         <module>09-spring-boot/starter-dependencies</module>
+        <module>09-spring-boot/configuration-properties</module>
 
     </modules>
 
