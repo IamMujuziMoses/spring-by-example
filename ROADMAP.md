@@ -137,7 +137,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Starter Dependencies
 - [x] Configuration Properties
 - [x] Profiles
-- 🚧 CommandLineRunner
+- [x] CommandLineRunner
 - 🚧 Actuator
 
 ---
@@ -146,7 +146,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ### Build web applications with the Spring MVC framework.
 
-- [ ] DispatcherServlet
+- 🚧 DispatcherServlet
 - [ ] Controllers
 - [ ] Request Mapping
 - [ ] Path Variables
