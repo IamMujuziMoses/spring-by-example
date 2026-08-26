@@ -94,6 +94,7 @@
         <module>09-spring-boot/starter-dependencies</module>
         <module>09-spring-boot/configuration-properties</module>
         <module>09-spring-boot/profiles</module>
+        <module>09-spring-boot/command-line-runner</module>
 
     </modules>
 
