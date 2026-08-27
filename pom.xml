@@ -97,6 +97,9 @@
         <module>09-spring-boot/command-line-runner</module>
         <module>09-spring-boot/actuator</module>
 
+        <!--    10 Spring Web            -->
+        <module>10-spring-web/dispatcher-servlet</module>
+
     </modules>
 
     <properties>
