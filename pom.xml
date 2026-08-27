@@ -95,6 +95,7 @@
         <module>09-spring-boot/configuration-properties</module>
         <module>09-spring-boot/profiles</module>
         <module>09-spring-boot/command-line-runner</module>
+        <module>09-spring-boot/actuator</module>
 
     </modules>
 
