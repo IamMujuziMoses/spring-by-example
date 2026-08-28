@@ -99,6 +99,7 @@
 
         <!--    10 Spring Web            -->
         <module>10-spring-web/dispatcher-servlet</module>
+        <module>10-spring-web/controllers</module>
 
     </modules>
 
