@@ -147,9 +147,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 ### Build web applications with the Spring MVC framework.
 
 - [x] DispatcherServlet
-- 🚧 Controllers
+- [x] Controllers
 - 🚧 Request Mapping
-- [ ] Path Variables
+- 🚧 Path Variables
 - [ ] Request Parameters
 - [ ] Request Body
 - [ ] Response Body
