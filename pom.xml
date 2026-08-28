@@ -101,6 +101,7 @@
         <module>10-spring-web/dispatcher-servlet</module>
         <module>10-spring-web/controllers</module>
         <module>10-spring-web/request-mapping</module>
+        <module>10-spring-web/path-variables</module>
 
     </modules>
 
@@ -143,6 +144,7 @@
 
                 <configuration>
                     <release>${java.version}</release>
+                    <parameters>true</parameters>
                 </configuration>
             </plugin>
 
