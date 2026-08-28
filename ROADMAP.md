@@ -149,9 +149,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] DispatcherServlet
 - [x] Controllers
 - [x] Request Mapping
-- 🚧 Path Variables
+- [x] Path Variables
 - 🚧 Request Parameters
-- [ ] Request Body
+- 🚧 Request Body
 - [ ] Response Body
 - [ ] Model and View
 - [ ] View Resolvers
