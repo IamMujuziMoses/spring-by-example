@@ -7,11 +7,6 @@ stages:
 variables:
   MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository"
 
-cache:
-  key: maven
-  paths:
-    - .m2/repository/
-
 maven-build:
   stage: build
   tags:

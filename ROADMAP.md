@@ -151,9 +151,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Request Mapping
 - [x] Path Variables
 - [x] Request Parameters
-- 🚧 Request Body
+- [x] Request Body
 - 🚧 Response Body
-- [ ] Model and View
+- 🚧 Model and View
 - [ ] View Resolvers
 - [ ] Exception Handling
 - [ ] Request Scope
