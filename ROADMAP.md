@@ -152,9 +152,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Path Variables
 - [x] Request Parameters
 - [x] Request Body
-- 🚧 Response Body
+- [x] Response Body
 - 🚧 Model and View
-- [ ] View Resolvers
+- 🚧 View Resolvers
 - [ ] Exception Handling
 - [ ] Request Scope
 - [ ] Session Scope
