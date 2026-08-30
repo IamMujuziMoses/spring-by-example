@@ -1,7 +1,5 @@
 ### `.gitlab-ci.yml`
 
-image: maven:3.9-eclipse-temurin-21
-
 stages:
   - build
   - qodana
@@ -16,7 +14,11 @@ cache:
 
 maven-build:
   stage: build
+  tags:
+    - local
   script:
+    - java -version
+    - mvn -version
     - mvn clean install
 
 include:

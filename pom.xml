@@ -102,6 +102,7 @@
         <module>10-spring-web/controllers</module>
         <module>10-spring-web/request-mapping</module>
         <module>10-spring-web/path-variables</module>
+        <module>10-spring-web/request-parameters</module>
 
     </modules>
 
