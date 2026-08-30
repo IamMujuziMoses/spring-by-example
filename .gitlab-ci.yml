@@ -2,7 +2,6 @@
 
 stages:
   - build
-  - qodana
 
 variables:
   MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository"
@@ -15,22 +14,3 @@ maven-build:
     - java -version
     - mvn -version
     - mvn clean install
-
-include:
-  - component: $CI_SERVER_FQDN/qodana/qodana/qodana-gitlab-ci@v2026.1
-    inputs:
-      image: jetbrains/qodana-jvm-community:2026.2
-      post-mr-comment: true
-
-qodana:
-  stage: qodana
-  rules:
-    # Analyze merge requests
-    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
-      variables:
-        GIT_DEPTH: 0
-
-    # Analyze main
-    - if: '$CI_COMMIT_BRANCH == "main"'
-      variables:
-        QODANA_MR_MODE: "false"

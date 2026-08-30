@@ -104,6 +104,7 @@
         <module>10-spring-web/path-variables</module>
         <module>10-spring-web/request-parameters</module>
         <module>10-spring-web/request-body</module>
+        <module>10-spring-web/response-body</module>
 
     </modules>
 
