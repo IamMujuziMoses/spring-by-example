@@ -154,9 +154,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Request Body
 - [x] Response Body
 - [x] Model and View
-- 🚧 View Resolvers
+- [x] View Resolvers
 - 🚧 Exception Handling
-- [ ] Request Scope
+- 🚧 Request Scope
 - [ ] Session Scope
 - [ ] Application Scope
 
