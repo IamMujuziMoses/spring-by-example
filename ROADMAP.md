@@ -157,7 +157,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] View Resolvers
 - [x] Exception Handling
 - [x] Request Scope
-- 🚧 Session Scope
+- [x] Session Scope
 - 🚧 Application Scope
 
 ---
@@ -166,7 +166,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ### Learn how to test Spring applications.
 
-- [ ] Unit Testing
+- 🚧 Unit Testing
 - [ ] Spring TestContext
 - [ ] @SpringBootTest
 - [ ] MockBean
