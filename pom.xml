@@ -109,6 +109,7 @@
         <module>10-spring-web/view-resolvers</module>
         <module>10-spring-web/exception-handling</module>
         <module>10-spring-web/request-scope</module>
+        <module>10-spring-web/session-scope</module>
 
     </modules>
 
