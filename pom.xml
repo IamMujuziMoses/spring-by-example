@@ -114,6 +114,7 @@
 
         <!--    11 Spring Testing        -->
         <module>11-spring-testing/unit-testing</module>
+        <module>11-spring-testing/spring-test-context</module>
 
     </modules>
 
