@@ -112,6 +112,9 @@
         <module>10-spring-web/session-scope</module>
         <module>10-spring-web/application-scope</module>
 
+        <!--    11 Spring Testing        -->
+        <module>11-spring-testing/unit-testing</module>
+
     </modules>
 
     <properties>

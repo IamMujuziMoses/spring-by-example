@@ -166,9 +166,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ### Learn how to test Spring applications.
 
-- 🚧 Unit Testing
+- [x] Unit Testing
 - 🚧 Spring TestContext
-- [ ] @SpringBootTest
+- 🚧 @SpringBootTest
 - [ ] MockBean
 - [ ] TestConfiguration
 - [ ] Integration Testing
