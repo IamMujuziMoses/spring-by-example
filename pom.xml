@@ -117,6 +117,7 @@
         <module>11-spring-testing/spring-test-context</module>
         <module>11-spring-testing/spring-boot-test</module>
         <module>11-spring-testing/mock-bean</module>
+        <module>11-spring-testing/test-configuration</module>
 
     </modules>
 
