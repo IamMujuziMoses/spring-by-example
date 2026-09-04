@@ -168,9 +168,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 - [x] Unit Testing
 - [x] Spring TestContext
-- 🚧 @SpringBootTest
+- [x] @SpringBootTest
 - 🚧 MockBean
-- [ ] TestConfiguration
+- 🚧 TestConfiguration
 - [ ] Integration Testing
 
 ---
