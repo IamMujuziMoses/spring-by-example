@@ -171,7 +171,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] @SpringBootTest
 - [x] MockBean
 - [x] TestConfiguration
-- 🚧 Integration Testing
+- [x] Integration Testing
 
 ---
 
@@ -180,7 +180,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 ### Explore advanced Spring container features.
 
 - 🚧 BeanFactory
-- [ ] ApplicationContext
+- 🚧 ApplicationContext
 - [ ] FactoryBean
 - [ ] BeanDefinition
 - [ ] BeanDefinitionRegistry
