@@ -120,6 +120,9 @@
         <module>11-spring-testing/test-configuration</module>
         <module>11-spring-testing/integration-testing</module>
 
+        <!--    12 Advanced Spring       -->
+        <module>12-advanced-spring/bean-factory</module>
+
     </modules>
 
     <properties>
