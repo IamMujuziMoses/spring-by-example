@@ -179,9 +179,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 ### Explore advanced Spring container features.
 
-- 🚧 BeanFactory
+- [x] BeanFactory
 - 🚧 ApplicationContext
-- [ ] FactoryBean
+- 🚧 FactoryBean
 - [ ] BeanDefinition
 - [ ] BeanDefinitionRegistry
 - [ ] ImportSelector
