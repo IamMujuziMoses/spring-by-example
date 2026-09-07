@@ -14,7 +14,7 @@ Whether you're learning Spring for the first time, preparing for interviews, or 
 ![Spring](https://img.shields.io/badge/Spring-Framework-orange?style=for-the-badge&logo=spring&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=coveralls)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-green?style=for-the-badge&logo=github)
-![Coverage](https://img.shields.io/badge/coverage-71.43%25-indigo?style=for-the-badge&logo=codecov&logoColor=white)
+![Coverage](https://img.shields.io/badge/coverage-78.57%25-indigo?style=for-the-badge&logo=codecov&logoColor=white)
 
 ---
 
@@ -235,7 +235,7 @@ Build web applications with the Spring MVC framework.
 
 ---
 
-### Module 11 — Testing 🚧
+### Module 11 — Testing ✅
 
 Write reliable Spring applications.
 
@@ -248,7 +248,7 @@ Write reliable Spring applications.
 
 ---
 
-### Module 12 — Advanced Spring
+### Module 12 — Advanced Spring 🚧
 
 Dive deeper into the framework.
 
