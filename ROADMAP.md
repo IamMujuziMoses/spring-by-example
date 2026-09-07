@@ -180,9 +180,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 ### Explore advanced Spring container features.
 
 - [x] BeanFactory
-- 🚧 ApplicationContext
+- [x] ApplicationContext
 - 🚧 FactoryBean
-- [ ] BeanDefinition
+- 🚧 BeanDefinition
 - [ ] BeanDefinitionRegistry
 - [ ] ImportSelector
 - [ ] DeferredImportSelector
