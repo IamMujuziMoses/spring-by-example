@@ -123,6 +123,7 @@
         <!--    12 Advanced Spring       -->
         <module>12-advanced-spring/bean-factory</module>
         <module>12-advanced-spring/application-context</module>
+        <module>12-advanced-spring/factory-bean</module>
 
     </modules>
 

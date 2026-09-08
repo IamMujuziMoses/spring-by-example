@@ -181,9 +181,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 
 - [x] BeanFactory
 - [x] ApplicationContext
-- 🚧 FactoryBean
+- [x] FactoryBean
 - 🚧 BeanDefinition
-- [ ] BeanDefinitionRegistry
+- 🚧 BeanDefinitionRegistry
 - [ ] ImportSelector
 - [ ] DeferredImportSelector
 - [ ] ImportBeanDefinitionRegistrar
