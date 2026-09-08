@@ -124,6 +124,7 @@
         <module>12-advanced-spring/bean-factory</module>
         <module>12-advanced-spring/application-context</module>
         <module>12-advanced-spring/factory-bean</module>
+        <module>12-advanced-spring/bean-definition</module>
 
     </modules>
 
