@@ -126,6 +126,7 @@
         <module>12-advanced-spring/factory-bean</module>
         <module>12-advanced-spring/bean-definition</module>
         <module>12-advanced-spring/bean-definition-registry</module>
+        <module>12-advanced-spring/import-selector</module>
 
     </modules>
 
