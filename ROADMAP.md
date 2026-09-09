@@ -186,9 +186,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] BeanDefinitionRegistry
 - [x] ImportSelector
 - [x] DeferredImportSelector
-- 🚧 ImportBeanDefinitionRegistrar
+- [x] ImportBeanDefinitionRegistrar
 - 🚧 Environment
-- [ ] Property Sources
+- 🚧 Property Sources
 - [ ] Resource Loading
 - [ ] MessageSource
 - [ ] ConversionService
