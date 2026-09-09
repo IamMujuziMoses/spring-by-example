@@ -127,6 +127,7 @@
         <module>12-advanced-spring/bean-definition</module>
         <module>12-advanced-spring/bean-definition-registry</module>
         <module>12-advanced-spring/import-selector</module>
+        <module>12-advanced-spring/deferred-import-selector</module>
 
     </modules>
 

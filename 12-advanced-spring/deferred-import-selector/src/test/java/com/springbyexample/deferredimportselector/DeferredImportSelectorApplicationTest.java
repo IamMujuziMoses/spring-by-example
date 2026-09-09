@@ -1,4 +1,4 @@
-package com.springbyexample.importselector;
+package com.springbyexample.deferredimportselector;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 /**
  * @author Mujuzi Moses
  */
-public class ImportSelectorApplicationTest {
+public class DeferredImportSelectorApplicationTest {
 
     @Test
     void shouldImportSelectedConfiguration() {
@@ -19,7 +19,7 @@ public class ImportSelectorApplicationTest {
             GreetingService greetingService = applicationContext.getBean(GreetingService.class);
 
             assertNotNull(greetingService);
-            assertEquals("Hello from ImportSelector!", greetingService.greet());
+            assertEquals("Hello from DeferredImportSelector!", greetingService.greet());
         }
     }
 }
