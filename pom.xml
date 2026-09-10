@@ -130,6 +130,7 @@
         <module>12-advanced-spring/deferred-import-selector</module>
         <module>12-advanced-spring/import-bean-definition-registrar</module>
         <module>12-advanced-spring/environment</module>
+        <module>12-advanced-spring/property-sources</module>
 
     </modules>
 
