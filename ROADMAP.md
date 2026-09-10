@@ -189,9 +189,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] ImportBeanDefinitionRegistrar
 - [x] Environment
 - [x] Property Sources
-- 🚧 Resource Loading
+- [x] Resource Loading
 - 🚧 MessageSource
-- [ ] ConversionService
+- 🚧 ConversionService
 - [ ] Type Conversion
 - [ ] Validation
 - [ ] SpEL
