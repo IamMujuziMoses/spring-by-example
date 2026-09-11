@@ -132,6 +132,7 @@
         <module>12-advanced-spring/environment</module>
         <module>12-advanced-spring/property-sources</module>
         <module>12-advanced-spring/resource-loading</module>
+        <module>12-advanced-spring/message-source</module>
 
     </modules>
 

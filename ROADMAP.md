@@ -190,9 +190,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Environment
 - [x] Property Sources
 - [x] Resource Loading
-- 🚧 MessageSource
+- [x] MessageSource
 - 🚧 ConversionService
-- [ ] Type Conversion
+- 🚧 Type Conversion
 - [ ] Validation
 - [ ] SpEL
 - [ ] @Lookup
