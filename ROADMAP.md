@@ -191,9 +191,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Property Sources
 - [x] Resource Loading
 - [x] MessageSource
-- 🚧 ConversionService
+- [x] ConversionService
 - 🚧 Type Conversion
-- [ ] Validation
+- 🚧 Validation
 - [ ] SpEL
 - [ ] @Lookup
 - [ ] Method Injection
