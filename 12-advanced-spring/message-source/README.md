@@ -6,6 +6,8 @@ This is especially useful when an application needs to support multiple language
 
 This example demonstrates how to configure a `MessageSource`, define localized message bundles, resolve messages for different locales, and provide arguments to messages.
 
+---
+
 ## Learning Objectives
 
 By completing this example, you will understand:
@@ -20,6 +22,8 @@ By completing this example, you will understand:
 - How to pass arguments to messages
 - How Spring falls back to the default message bundle
 - How to test localized message resolution
+
+---
 
 ## What Is MessageSource?
 
@@ -59,6 +63,8 @@ greeting
 
 This allows the same application code to display different messages depending on the user's locale.
 
+---
+
 ## Why Does MessageSource Exist?
 
 Applications often need to support users from different countries and language environments.
@@ -96,27 +102,20 @@ Localized Message
 
 The application code only needs to know the message key and requested locale.
 
+---
+
 ## MessageSource Interface
 
 The main method used in this example is:
 
 ```java
-String getMessage(
-        String code,
-        Object[] args,
-        Locale locale
-);
+String getMessage(String code, Object[] args, Locale locale);
 ```
 
 For example:
 
 ```java
-String message =
-        messageSource.getMessage(
-                "greeting",
-                new Object[]{"Moses"},
-                Locale.ENGLISH
-        );
+String message = messageSource.getMessage("greeting", new Object[]{"Moses"}, Locale.ENGLISH);
 ```
 
 The parameters represent:
@@ -140,6 +139,8 @@ The result is:
 ```text
 Hello, Moses!
 ```
+
+---
 
 ## Message Bundles
 
@@ -175,6 +176,8 @@ greeting
 
 but the value differs depending on the locale.
 
+---
+
 ## Default Message Bundle
 
 The default bundle is:
@@ -202,6 +205,8 @@ Spring can resolve the message to:
 ```text
 Hello, Moses!
 ```
+
+---
 
 ## Locale-Specific Message Bundles
 
@@ -241,14 +246,12 @@ messages_es.properties
 The application can request a message using the corresponding `Locale`.
 
 ```java
-messageSource.getMessage(
-        "greeting",
-        new Object[]{"Moses"},
-        Locale.FRENCH
-);
+messageSource.getMessage("greeting",new Object[]{"Moses"},Locale.FRENCH);
 ```
 
 Spring then looks for an appropriate French message bundle.
+
+---
 
 ## ResourceBundleMessageSource
 
@@ -265,8 +268,7 @@ org.springframework.context.support.ResourceBundleMessageSource
 It can be configured with:
 
 ```java
-ResourceBundleMessageSource messageSource =
-        new ResourceBundleMessageSource();
+ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
 
 messageSource.setBasenames("messages");
 ```
@@ -286,6 +288,8 @@ messages_fr.properties
 
 The locale determines which bundle is selected.
 
+---
+
 ## Configuring MessageSource
 
 The example defines a `MessageSource` bean using Java configuration:
@@ -296,8 +300,7 @@ public class MessageSourceConfig {
 
     @Bean
     public MessageSource messageSource() {
-        ResourceBundleMessageSource messageSource =
-                new ResourceBundleMessageSource();
+        ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
 
         messageSource.setBasenames("messages");
 
@@ -320,17 +323,14 @@ messages.properties
 messages_fr.properties
 ```
 
+---
+
 ## Resolving an English Message
 
 A message can be resolved using `Locale.ENGLISH`:
 
 ```java
-String message =
-        messageSource.getMessage(
-                "greeting",
-                new Object[]{"Moses"},
-                Locale.ENGLISH
-        );
+String message = messageSource.getMessage("greeting", new Object[]{"Moses"}, Locale.ENGLISH);
 ```
 
 The result is:
@@ -351,17 +351,14 @@ and `{0}` is replaced with:
 Moses
 ```
 
+---
+
 ## Resolving a French Message
 
 The same message key can be resolved using `Locale.FRENCH`:
 
 ```java
-String message =
-        messageSource.getMessage(
-                "greeting",
-                new Object[]{"Moses"},
-                Locale.FRENCH
-        );
+String message = messageSource.getMessage("greeting", new Object[]{"Moses"}, Locale.FRENCH);
 ```
 
 Spring uses the French resource bundle:
@@ -380,6 +377,8 @@ The application code does not need a separate `if` statement for French.
 
 The locale determines which message should be used.
 
+---
+
 ## Message Arguments
 
 Messages can contain placeholders.
@@ -395,11 +394,7 @@ The `{0}` represents the first argument passed to `getMessage()`.
 For example:
 
 ```java
-messageSource.getMessage(
-        "greeting",
-        new Object[]{"Moses"},
-        Locale.ENGLISH
-);
+messageSource.getMessage("greeting",new Object[]{"Moses"},Locale.ENGLISH);
 ```
 
 produces:
@@ -429,6 +424,8 @@ Hello, Moses! You have 5 new messages.
 ```
 
 This allows message templates to remain in the message bundle while dynamic values are supplied by the application.
+
+---
 
 ## Message Resolution Flow
 
@@ -476,6 +473,8 @@ messages.properties
 Hello, Moses!
 ```
 
+---
+
 ## Message Fallback
 
 A default message bundle is useful when a locale-specific message is not available.
@@ -497,6 +496,8 @@ If a specific localized message is not available, message resolution can fall ba
 
 The default bundle therefore provides a useful baseline for the application.
 
+---
+
 ## Complete Example
 
 ### MessageSourceConfig
@@ -507,9 +508,7 @@ public class MessageSourceConfig {
 
     @Bean
     public MessageSource messageSource() {
-        ResourceBundleMessageSource messageSource =
-                new ResourceBundleMessageSource();
-
+        ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
         messageSource.setBasenames("messages");
 
         return messageSource;
@@ -524,26 +523,11 @@ public class MessageSourceApplication {
 
     public static void main(String[] args) {
         try (AnnotationConfigApplicationContext applicationContext =
-                     new AnnotationConfigApplicationContext(
-                             MessageSourceConfig.class
-                     )) {
+                     new AnnotationConfigApplicationContext(MessageSourceConfig.class)) {
+            MessageSource messageSource = applicationContext.getBean(MessageSource.class);
 
-            MessageSource messageSource =
-                    applicationContext.getBean(MessageSource.class);
-
-            String englishGreeting =
-                    messageSource.getMessage(
-                            "greeting",
-                            new Object[]{"Moses"},
-                            Locale.ENGLISH
-                    );
-
-            String frenchGreeting =
-                    messageSource.getMessage(
-                            "greeting",
-                            new Object[]{"Moses"},
-                            Locale.FRENCH
-                    );
+            String englishGreeting = messageSource.getMessage("greeting", new Object[]{"Moses"}, Locale.ENGLISH);
+            String frenchGreeting = messageSource.getMessage("greeting", new Object[]{"Moses"}, Locale.FRENCH);
 
             System.out.println(englishGreeting);
             System.out.println(frenchGreeting);
@@ -573,6 +557,8 @@ Hello, Moses!
 Bonjour, Moses !
 ```
 
+---
+
 ## MessageSource vs Resource Loading
 
 The previous example in Module 12 demonstrated Spring's resource loading abstraction.
@@ -594,6 +580,8 @@ MessageSource
 The two concepts are related, but they have different responsibilities.
 
 This example therefore focuses on message resolution rather than directly loading files with `ResourceLoader`.
+
+---
 
 ## MessageSource vs Environment
 
@@ -619,6 +607,8 @@ MessageSource
 ```
 
 Keeping these responsibilities separate makes the Spring framework easier to understand and use.
+
+---
 
 ## Internationalization
 
@@ -647,6 +637,8 @@ greeting
 
 while allowing the message text to vary according to the locale.
 
+---
+
 ## Common Message Bundle Naming
 
 Message bundles generally follow a naming convention based on the base name and locale.
@@ -674,6 +666,8 @@ The basename configured in Spring is simply:
 messageSource.setBasenames("messages");
 ```
 
+---
+
 ## Key MessageSource Operations
 
 | Operation | Purpose |
@@ -686,11 +680,7 @@ messageSource.setBasenames("messages");
 A typical call looks like:
 
 ```java
-messageSource.getMessage(
-        "greeting",
-        new Object[]{"Moses"},
-        Locale.ENGLISH
-);
+messageSource.getMessage("greeting",new Object[]{"Moses"},Locale.ENGLISH);
 ```
 
 The three important inputs are:
@@ -712,6 +702,8 @@ Locale
 Locale.ENGLISH
 ```
 
+---
+
 ## Dependencies
 
 This example uses `spring-context` because `MessageSource` and the configuration infrastructure are provided by Spring Context.
@@ -721,17 +713,15 @@ This example uses `spring-context` because `MessageSource` and the configuration
     <groupId>org.springframework</groupId>
     <artifactId>spring-context</artifactId>
 </dependency>
-```
 
-JUnit is included for testing:
-
-```xml
 <dependency>
     <groupId>org.junit.jupiter</groupId>
     <artifactId>junit-jupiter</artifactId>
     <scope>test</scope>
 </dependency>
 ```
+
+---
 
 ## Running the Example
 
@@ -754,6 +744,8 @@ Hello, Moses!
 Bonjour, Moses !
 ```
 
+---
+
 ## Key Takeaways
 
 - `MessageSource` is Spring's abstraction for resolving messages.
@@ -768,9 +760,9 @@ Bonjour, Moses !
 - `MessageSource` helps applications support internationalization.
 - `MessageSource` has a different responsibility from `Environment` and `ResourceLoader`.
 
-## Next
+---
 
-The next example in Module 12 - Advanced Spring will cover:
+## Next
 
 **ConversionService**
 
