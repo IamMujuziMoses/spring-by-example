@@ -192,11 +192,10 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Resource Loading
 - [x] MessageSource
 - [x] ConversionService
-- 🚧 Type Conversion
-- 🚧 Validation
-- [ ] SpEL
+- [x] Validation
+- 🚧 SpEL
+- 🚧 Method Injection
 - [ ] @Lookup
-- [ ] Method Injection
 
 ---
 
