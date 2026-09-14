@@ -135,6 +135,7 @@
         <module>12-advanced-spring/message-source</module>
         <module>12-advanced-spring/conversion-service</module>
         <module>12-advanced-spring/validation</module>
+        <module>12-advanced-spring/spring-expression-language</module>
 
     </modules>
 
