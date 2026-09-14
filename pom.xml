@@ -137,6 +137,7 @@
         <module>12-advanced-spring/validation</module>
         <module>12-advanced-spring/spring-expression-language</module>
         <module>12-advanced-spring/method-injection</module>
+        <module>12-advanced-spring/lookup</module>
 
     </modules>
 
