@@ -193,9 +193,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] MessageSource
 - [x] ConversionService
 - [x] Validation
-- 🚧 SpEL
+- [x] SpEL
 - 🚧 Method Injection
-- [ ] @Lookup
+- 🚧 @Lookup
 
 ---
 
