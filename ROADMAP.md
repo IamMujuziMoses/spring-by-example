@@ -195,7 +195,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] Validation
 - [x] SpEL
 - [x] Method Injection
-- 🚧 @Lookup
+- [x] @Lookup
 
 ---
 
@@ -204,7 +204,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 ### Discover what happens behind the scenes.
 
 - 🚧 How Beans Are Registered
-- [ ] How Dependency Injection Works
+- 🚧 How Dependency Injection Works
 - [ ] How Component Scanning Works
 - [ ] How @Autowired Works
 - [ ] How @Transactional Works
