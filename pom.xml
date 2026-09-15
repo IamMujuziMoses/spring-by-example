@@ -139,6 +139,9 @@
         <module>12-advanced-spring/method-injection</module>
         <module>12-advanced-spring/lookup</module>
 
+        <!--    13 Spring Internals      -->
+        <module>13-spring-internals/beans-registration</module>
+
     </modules>
 
     <properties>
