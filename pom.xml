@@ -141,6 +141,7 @@
 
         <!--    13 Spring Internals      -->
         <module>13-spring-internals/beans-registration</module>
+        <module>13-spring-internals/dependencies-injection</module>
 
     </modules>
 
