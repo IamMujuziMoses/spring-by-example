@@ -206,9 +206,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] How Beans Are Registered
 - [x] How Dependency Injection Works
 - [x] How Component Scanning Works
-- 🚧 How @Autowired Works
+- [x] How @Autowired Works
 - 🚧 How @Transactional Works
-- [ ] How AOP Proxies Are Created
+- 🚧 How AOP Proxies Are Created
 - [ ] How Bean Post Processors Work
 - [ ] Understanding DefaultListableBeanFactory
 - [ ] Understanding ConfigurationClassPostProcessor
