@@ -209,9 +209,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] How @Autowired Works
 - [x] How @Transactional Works
 - [x] How AOP Proxies Are Created
-- 🚧 How Bean Post Processors Work
+- [x] How Bean Post Processors Work
 - 🚧 Understanding DefaultListableBeanFactory
-- [ ] Understanding ConfigurationClassPostProcessor
+- 🚧 Understanding ConfigurationClassPostProcessor
 
 ---
 
