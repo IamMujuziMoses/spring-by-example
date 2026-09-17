@@ -146,6 +146,7 @@
         <module>13-spring-internals/autowired</module>
         <module>13-spring-internals/transactionals</module>
         <module>13-spring-internals/aop-proxies</module>
+        <module>13-spring-internals/bean-post-processors</module>
 
     </modules>
 
