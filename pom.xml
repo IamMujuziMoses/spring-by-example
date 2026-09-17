@@ -147,6 +147,7 @@
         <module>13-spring-internals/transactionals</module>
         <module>13-spring-internals/aop-proxies</module>
         <module>13-spring-internals/bean-post-processors</module>
+        <module>13-spring-internals/default-listable-bean-factory</module>
 
     </modules>
 
