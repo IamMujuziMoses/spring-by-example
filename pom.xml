@@ -150,6 +150,9 @@
         <module>13-spring-internals/default-listable-bean-factory</module>
         <module>13-spring-internals/configuration-class-post-processor</module>
 
+        <!--    14 OpenMRS Examples     -->
+        <module>14-openmrs-examples/service-registration</module>
+
     </modules>
 
     <properties>
