@@ -211,7 +211,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 - [x] How AOP Proxies Are Created
 - [x] How Bean Post Processors Work
 - [x] Understanding DefaultListableBeanFactory
-- 🚧 Understanding ConfigurationClassPostProcessor
+- [x] Understanding ConfigurationClassPostProcessor
 
 ---
 
@@ -222,7 +222,7 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 Examples showing how Spring concepts are applied in OpenMRS.
 
 - 🚧 Service Registration
-- [ ] Module Loading
+- 🚧 Module Loading
 - [ ] XML to Java Configuration
 - [ ] OpenmrsBeanRegistrar
 - [ ] ServiceContext
