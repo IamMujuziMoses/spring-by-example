@@ -14,7 +14,7 @@ Whether you're learning Spring for the first time, preparing for interviews, or 
 ![Spring](https://img.shields.io/badge/Spring-Framework-orange?style=for-the-badge&logo=spring&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=coveralls)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-green?style=for-the-badge&logo=github)
-![Coverage](https://img.shields.io/badge/coverage-85.71%25-indigo?style=for-the-badge&logo=codecov&logoColor=white)
+![Coverage](https://img.shields.io/badge/coverage-92.86%25-indigo?style=for-the-badge&logo=codecov&logoColor=white)
 
 ---
 
@@ -272,7 +272,7 @@ Dive deeper into the framework.
 
 ---
 
-### Module 13 — Spring Internals 🚧
+### Module 13 — Spring Internals ✅
 
 Understand what happens behind the scenes.
 
@@ -288,7 +288,7 @@ Understand what happens behind the scenes.
 
 ---
 
-### Module 14 — OpenMRS Examples
+### Module 14 — OpenMRS Examples 🚧
 
 See how Spring concepts are applied in a real-world project.
 
