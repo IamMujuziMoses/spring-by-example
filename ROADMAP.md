@@ -222,9 +222,9 @@ The goal is to provide small, focused, runnable examples that explain how the Sp
 Examples showing how Spring concepts are applied in OpenMRS.
 
 - [x] Service Registration
-- 🚧 Module Loading
+- [x] Module Loading
 - 🚧 XML to Java Configuration
-- [ ] OpenmrsBeanRegistrar
+- 🚧 OpenmrsBeanRegistrar
 - [ ] ServiceContext
 - [ ] AOP in OpenMRS
 - [ ] Transaction Management

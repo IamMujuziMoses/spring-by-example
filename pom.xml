@@ -152,6 +152,7 @@
 
         <!--    14 OpenMRS Examples     -->
         <module>14-openmrs-examples/service-registration</module>
+        <module>14-openmrs-examples/module-loading</module>
 
     </modules>
 
