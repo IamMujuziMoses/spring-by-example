@@ -224,9 +224,9 @@ Examples showing how Spring concepts are applied in OpenMRS.
 - [x] Service Registration
 - [x] Module Loading
 - [x] XML to Java Configuration
-- 🚧 OpenmrsBeanRegistrar
+- [x] OpenmrsBeanRegistrar
 - 🚧 ServiceContext
-- [ ] AOP in OpenMRS
+- 🚧 AOP in OpenMRS
 - [ ] Transaction Management
 - [ ] Custom Spring Profiles
 
