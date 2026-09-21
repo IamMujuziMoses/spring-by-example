@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 /**
  * @author Mujuzi Moses
  */
-class ModuleLoadingTest {
+public class ModuleLoadingTest {
 
     @Test
     void shouldCreateModuleInUnloadedState() {

@@ -11,7 +11,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 /**
  * @author Mujuzi Moses
  */
-class XmlToJavaConfigurationTest {
+public class XmlToJavaConfigurationTest {
 
     @Test
     void shouldRegisterBeanFromXmlConfiguration() {
