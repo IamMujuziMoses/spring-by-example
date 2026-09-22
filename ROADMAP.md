@@ -228,7 +228,7 @@ Examples showing how Spring concepts are applied in OpenMRS.
 - [x] ServiceContext
 - [x] AOP in OpenMRS
 - [x] Transaction Management
-- 🚧 Custom Spring Profiles
+- [x] Custom Spring Profiles
 
 ---
 

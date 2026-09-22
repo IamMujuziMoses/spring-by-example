@@ -158,6 +158,7 @@
         <module>14-openmrs-examples/service-context</module>
         <module>14-openmrs-examples/aop-in-openmrs</module>
         <module>14-openmrs-examples/transaction-management</module>
+        <module>14-openmrs-examples/custom-spring-profiles</module>
 
     </modules>
 
