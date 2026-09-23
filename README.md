@@ -14,7 +14,7 @@ Whether you're learning Spring for the first time, preparing for interviews, or 
 ![Spring](https://img.shields.io/badge/Spring-Framework-orange?style=for-the-badge&logo=spring&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=coveralls)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-green?style=for-the-badge&logo=github)
-![Coverage](https://img.shields.io/badge/coverage-92.86%25-indigo?style=for-the-badge&logo=codecov&logoColor=white)
+![Coverage](https://img.shields.io/badge/coverage-100%25-blue?style=for-the-badge&logo=codecov&logoColor=white)
 
 ---
 
@@ -288,7 +288,7 @@ Understand what happens behind the scenes.
 
 ---
 
-### Module 14 — OpenMRS Examples 🚧
+### Module 14 — OpenMRS Examples ✅
 
 See how Spring concepts are applied in a real-world project.
 
@@ -340,6 +340,16 @@ If you'd like to improve an example, fix an issue, or add a new learning module,
 
 ---
 
+## Contributors
+
+Thank you to everyone who has contributed! Here are the people who have helped so far:
+
+<a href="https://github.com/IamMujuziMoses/spring-by-example/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=IamMujuziMoses/spring-by-example" />
+</a>
+
+---
+
 ## Roadmap
 
 The project's progress is tracked in [ROADMAP.md](ROADMAP.md), where you can see completed modules, upcoming topics, and future plans.
@@ -351,3 +361,7 @@ The project's progress is tracked in [ROADMAP.md](ROADMAP.md), where you can see
 This project is licensed under the MIT License.
 
 See the [LICENSE](LICENSE) file for details.
+
+---
+
+#### [Back To Top ⬆️](#spring-by-example)

@@ -236,16 +236,16 @@ Examples showing how Spring concepts are applied in OpenMRS.
 
 ### Potential additions after v1.0.
 
-- [ ] Kotlin Examples
-- [ ] GraalVM Native Images
-- [ ] Reactive Spring
-- [ ] Spring AI
-- [ ] Spring Modulith
-- [ ] Spring Security
-- [ ] Spring Data
-- [ ] Spring Batch
-- [ ] Spring Integration
-- [ ] Spring Cloud
+- Kotlin Examples
+- GraalVM Native Images
+- Reactive Spring
+- Spring AI
+- Spring Modulith
+- Spring Security
+- Spring Data
+- Spring Batch
+- Spring Integration
+- Spring Cloud
 
 ---
 
@@ -256,3 +256,7 @@ Contributions are welcome!
 Feel free to pick any unchecked example, open an issue to discuss it, or submit a pull request.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+
+---
+
+#### [Back To Top ⬆️](#roadmap)
